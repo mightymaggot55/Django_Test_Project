@@ -1,0 +1,4 @@
+18/05/22 -
+left off looking at Authenticating and logging in. Look at website in bookmarks(realpython.com)
+Will need to check URL redirect
+Ammend HTML Form probably and add in the Django form

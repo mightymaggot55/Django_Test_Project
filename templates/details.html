@@ -1,0 +1,19 @@
+
+{% load static %}
+<head>
+    <link href="{% static 'css/style.css'%}" rel="stylesheet" type="text/css">
+    <meta charset="utf-8">
+    <title>Spectra Packaging IT Login</title>
+</head>
+<body>
+<div class="align-center"></div>
+<form action="" method="post" class="form">
+    <div class="image-center">
+        <img src={%static 'img/Spectra-logo-white.png'%} width="100px" height="100px"/>
+    </div>
+    <input type="text" name="username" placeholder="info@spectra-packaging.co.uk" id="username" required>
+    <input type="password" name="password" placeholder="*******" id="password" required>
+    <button type="submit" value="login">Login</button>
+    <label>Contact the IT team for any technical support</label>
+</form>
+</body>

@@ -1,0 +1,21 @@
+
+{% load static %}
+<head>
+    <link href="{% static 'css/style.css' %}" rel="stylesheet" type="text/css">
+    <meta charset="utf-8">
+    <title>Spectra Packaging IT Login</title>
+</head>
+<body>
+<div class="align-center"></div>
+<form action="" method="POST">
+    {% csrf_token %}
+    <div class="image-center">
+        <img src="{%static 'img/Spectra-logo-white.png' %}" width="100px" height="100px"/>
+    </div>
+    {{ form }}
+
+    <button type="submit" value="log in">Login</button>
+    <input type="hidden" name="next" value="{{ next }}">
+    <label>Contact the IT team for any technical support</label>
+</form>
+</body>
